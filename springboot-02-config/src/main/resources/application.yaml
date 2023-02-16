@@ -1,15 +1,6 @@
-person:
-  name: 曾晨
-  age: 22
-  happy: true
-  birth: 2001/10/24
-  maps: {
-          k1: xws1
-          k2: xws2
-  }
-  lists:
-    - code
-    - music
-  user:
-    name: xws
-    age: 23
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
