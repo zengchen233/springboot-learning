@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dev
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  mail:
+    username: noreply@zengchen233.cn
+    password:
+    host: smtp.exmail.qq.com
+    port: 465
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
